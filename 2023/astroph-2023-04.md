@@ -55,7 +55,7 @@ Tags: #JWST
 
 [[2304.02452] Abundances of CNO elements in z ~ 0.3-0.4 LyC leaking galaxies (arxiv.org)](https://arxiv.org/abs/2304.02452)
 
-Tag: #LyC 
+Tag: #LyC # GP
 
 [[2304.02666] Early Results from GLASS-JWST XXIII: The transmission of Lyman-alpha from UV-faint z ~ 3-6 galaxies (arxiv.org)](https://arxiv.org/abs/2304.02666)
 
@@ -109,10 +109,12 @@ Tags: #JWST
 
 [[2304.08516] JADES: Insights on the low-mass end of the mass--metallicity--star-formation rate relation at $3 < z < 10$ from deep JWST/NIRSpec spectroscopy (arxiv.org)](https://arxiv.org/abs/2304.08516)
 
+Tags: JWST
+
 - The authors used JWST/NIRSpec to observe 66 low mass galaxies at $3<z<10$ in the GOODS-S Deep field.
 - They studied scaling relation between the metallicity, stellar mass, star-forming rate.  They found a evidence supports that the mass-metallicity has a shallower slope at low-mass end, which agrees with the MZR relation found at local analog of high-z galaxies (e.g. Green Pea & Blueberry).
 - The inferred slope is well matched with the result predicted by model including the SNe winds, suggesting that the feedback mechanism in dwarf galaxies might be different from those in place at higher mass.
- 
+
 [[2304.08526] The Physics of Indirect Estimators of Lyman Continuum Escape and their Application to High-Redshift JWST Galaxies (arxiv.org)](https://arxiv.org/abs/2304.08526)
 
 - 本篇工作基于宇宙学模拟中的mock spectra建模, 来研究LyC光子逃逸的必要条件.
@@ -120,4 +122,30 @@ Tags: #JWST
 	- 能够较好的追踪较高的specific star formation rata;
 	- 对星系内的年轻星族敏感(3.5 Myr - 10Myr)
 	- 能够较好的示踪ISM内的气体成分和气体密度
-O32, $\Sigma_{SFR}$, $M_{UV}$, $H \beta$等值宽度仅仅能满足以上一个或者更少条件,因此它们对$f_{esc}$的示踪性较差; 而$\beta$, $E(B-V)$能够满足两个以上的条件,因此它们对$f_{esc}$较好.同时,他们基于模拟建立了$f_{esc}$与O32, $\Sigma_{SFR}$, $M_{UV}$, $H \beta$, $\beta$, $E(B-V)$的关系,然后运用在红移6的LAEs上,发现大部分星系均有$f_{esc}<10\%$
+	O32, $\Sigma_{SFR}$, $M_{UV}$, $H \beta$等值宽度仅仅能满足以上一个或者更少条件,因此它们对$f_{esc}$的示踪性较差; 而$\beta$, $E(B-V)$能够满足两个以上的条件,因此它们对$f_{esc}$较好.同时,他们基于模拟建立了$f_{esc}$与O32, $\Sigma_{SFR}$, $M_{UV}$, $H \beta$, $\beta$, $E(B-V)$的关系,然后运用在红移6的LAEs上,发现大部分星系均有$f_{esc}<10\%$
+
+### Apr 21
+
+[[2304.09888\] A SPectroscopic survey of biased halos In the Reionization Era (ASPIRE): A First Look at the Rest-frame Optical Spectra of $z > 6.5$ Quasars Using JWST (arxiv.org)](https://arxiv.org/abs/2304.09888)
+
+Tags:  #JWST
+
+- The paper presents a JWST cycle one observation program (ASPIRE). This is a program that conduct the imaging and spectroscopic survey of 25 QSO at EOR using NIRCam WFSS mode. 
+- In this paper, they report a over-density structure (Filamentary Structure) traced by a QSO and 10 [OII] emitters at $z \sim 6$, which is one of largest over density structure known at early Universe and could eventually evolve into a massive galaxy cluster.
+- The combination of the additional MUSE, AMLA and JWST observations indicts that the environment traced by this QSO is complex, where both UV-bright galaxies and dusty galaxies are present. This means that the evolution of galaxies around QSO is not carried out simultaneous.
+- They also report 31 [O III] emitters at other redshift, with half of them resides in two galaxy over densities at $z = 5.4$ and $z = 6.2$. The discovery of two galaxy over densities in just one field indicates that high-$z$ [O III] emitters is a strong clustered population.
+
+[[2304.09888\] A SPectroscopic survey of biased halos In the Reionization Era (ASPIRE): A First Look at the Rest-frame Optical Spectra of $z > 6.5$ Quasars Using JWST (arxiv.org)](https://arxiv.org/abs/2304.09888)
+
+Tags: #JWST
+
+- This is a second paper of ASPIRE, which observe the rest-frame optical spectrum of QSO. The profile of QSO $H \beta$ profile span a FWHM from 3000 to 6000 km s^-1. The virial mass of mass ranges from 0.6 - 2.1 billion solar mass. The new measurements based on the more reliable Hβ tracer thus confirm the existence of billion solar-mass BHs in the reionization epoch.
+- [O III], FeII线也被观测到,其中两QSO的[O III]有显著的更宽且蓝移的宽线成份, 可能是外流引起.
+
+[[2304.10437\] A Mixture of LBG Overdensities in the Fields of Three $6 < z < 7$ Quasars: Implications for the Robustness of Photometric Selection (arxiv.org)](https://arxiv.org/abs/2304.10437)
+
+Tags: #JWST
+
+- The papers conduct a searching of LBG in three QSO field, and the author find there are two overdensities in two QSO fields. One field shows a volume density 10x higher than the black-field UV luminosity and with tentative evidence of a 3 sigma over density within 500 ckpc from the QSO. Another field shows a angular over density within 500 ckpc from QSO but within 3sigma of prediction of UVLF.
+
+- The paper also find that overdensities are not accompanied by an enhanced number of dusty galaxies, suggesting that the overdense quasar fields are not in the bursty star-forming phase sometimes seen in high-z protoclusters.
