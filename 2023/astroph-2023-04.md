@@ -149,3 +149,10 @@ Tags: #JWST
 - The papers conduct a searching of LBG in three QSO field, and the author find there are two overdensities in two QSO fields. One field shows a volume density 10x higher than the black-field UV luminosity and with tentative evidence of a 3 sigma over density within 500 ckpc from the QSO. Another field shows a angular over density within 500 ckpc from QSO but within 3sigma of prediction of UVLF.
 
 - The paper also find that overdensities are not accompanied by an enhanced number of dusty galaxies, suggesting that the overdense quasar fields are not in the bursty star-forming phase sometimes seen in high-z protoclusters.
+
+### Apr 30
+
+[[2304.13776\] Characterization of JWST NIRCam PSFs and Implications for AGN+Host Image Decomposition (arxiv.org)](https://arxiv.org/abs/2304.13776)
+
+
+
