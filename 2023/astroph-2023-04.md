@@ -41,7 +41,6 @@ However, a large sample is needed to make strong statement.
 	- A survey of 1 deg^2 would distinguish between very late and early reionization at 3 $\sigma$ level at $z \simeq 7$
 	- A survey of 4 deg^4 can distinguish between late v.s. fast, and early v.s. late, reionization at $3 \sim 4 \sigma$ between $7<z<9$
 	- A survey of 16^deg can yield a detailed history of the reionization of the IGM and its effect on Lyman-α Emitter clustering.
-	- 
 - This paper also present the model of reionization, which proposed by Finkelstein et al. 19,  Yung et al. 2020, Naidu et al. 2020. Here these study are summarize below:
 	- In F19, the faintest galaxies collectively dominate ionizing emissivity, leading to a very early reionization history and a very smooth pace. They also take the AGN contribution into account at $z \sim 6$. 
 	- Y20 is a semi-analytic model, that combine the dark matter halo formation history and the galaxies evolution history, leaving only the escape fraction as the free parameter.
