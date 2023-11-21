@@ -150,6 +150,7 @@ The day of the JADES data release
 [[2306.07320] UNCOVER: Candidate Red Active Galactic Nuclei at 3<z<7 with JWST and ALMA](https://arxiv.org/abs/2306.07320)
 
 - **Aims: ** Using the JWST Cycle 1 Treasury program Ultradeep NIRSpec and NIRCam Observations before the Epoch of Reionization (UNCOVER) in the lensing field Abll 2744, the authors report the identification of a sample of red dots that likely host highly-reddened AGN.
+
 - **Methods: ** Using a NIRCam only selection method, 26 objects are selected. The criteria they used is 1) NIRCam F444W < 27.7 mag; 2) F115W - F220W $\sim 0$, blue in rest-frame 3) F200W-F444W = 1-4; 4) dominated by a point-source like central component. Furthermore, 20 objects are covered by ALMA 1.2-mm coverage, yet no source is detected individually or in a stack.
 - **Results:**
   1. For the majority of the sample, SED fits to the JWST+ALMA observations prefer models with hot dust rather than obscured star-formation.

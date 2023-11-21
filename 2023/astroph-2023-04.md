@@ -152,6 +152,3 @@ Tags: #JWST
 ### Apr 30
 
 [[2304.13776\] Characterization of JWST NIRCam PSFs and Implications for AGN+Host Image Decomposition (arxiv.org)](https://arxiv.org/abs/2304.13776)
-
-
-
