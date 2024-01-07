@@ -369,3 +369,53 @@ See Section 2.3 for details. Here I list some bullet points about the slope meas
 - **Aims and Background**: The author present a forward-model way to study the color of high-z galaxies. Although the SED fit could inference the important physical properties of galaxies, the inference of these properies could lead to large uncentainies and potenital bias, especially based on the photometric data alone. it is now possible, and common, for simulations to be forward-modelled to yield synthetic observations that can be compared directly to real observations.
 - **Methods** Using CEERS data, they measure the fluxes and color of high-z galaxies (z>4). They compare their measurments with the predictions made by a varity of models generated using the same methods.
 - **Results** In general, the measurments agree with the predictions at relatively low redshift (5<z<8). However, at the high redshift (z>8), there is some disagrement between the measurements and the predictions. However, the high-z sample is samll, so the distributions of observed value is susceptible to statistical fluctuations.
+
+### Nov 21
+
+[[2311.11569] Lyman-alpha at Cosmic Noon I: Ly-alpha Spectral Type Selection of z ~ 2-3 Lyman Break Galaxies with Broadband Imaging (arxiv.org)](https://arxiv.org/abs/2311.10985)
+
+- **Aims** The studies try to establish the link between the net Lyman alpha equivalent width and the broadband photometric properties of LBGs at the redshift of 2. This link could be used to purposefully select LBGs with specific EW(Ly-alpha).
+- **Methods** They show that LBGs wit the strongest net Lay EW in absorption distributions in (U-R) and R-band magnitude space, and use this segregation behavior to determine photometric criteria by which sub-samples with a desired Lya spectral type can be selected.
+- **Results** They use spectrophotometry of composite spectra derived from a sample of 798 LBGs divided into quartiles on the basis of net Lya EW to calculate criteria for the selection of Lya absorbing and Lya emitting populations of z~3 LBGs using ugri broadband photometric data from the Vera Rubin Observatory Legacy Survey of Space and Time (LSST).
+
+[[2311.11569] A proto-cluster of massive quiescent galaxies at z=4](https://arxiv.org/abs/2311.11569)
+
+**Aims** The study report on discovery of a concentration of massive quiescent galaxies located at z=4.
+
+**Methods** The concentration is firstly identified using the multi-band photometric data in Subaru/XMM-Newton Deep Field. Follow-up near-infrared spectroscopic observations with MOSFIRE on Keck confirm a massive (~10^{11} Msun) quiescent galaxy at z=3.99.  The SED fitting is used to derive the star-forming history and the physical properties.
+
+**Results** 
+
+- They confirm a massive (~10^11 Msun) quiescent galaxy at z=3.99, with evidence of a starburst event around 500 million years prior, followed by rapid quenching. Furthermore, a probable (proto-)cluster consisting of this galaxy and four surrounding massive (>10^10 Msun) quiescent galaxies within approximately 1 physical Mpc scale, all likely at the same redshift.
+- Lack of similar concentrations in the Illustris-TNG300 simulation, indicating the rarity of such a system.
+
+**Conclusions** The study potentially identifies the first cluster dominated by quiescent galaxies at such a high redshift (z=4). The combined halo mass of these galaxies (~10^13 Msun) suggests they may form a group-sized halo in the future.
+
+### Nov 22
+
+[[2311.12234] A Steep Decline in the Galaxy Space Density Beyond Redshift 9 in the CANUCS UV Luminosity Function (arxiv.org)](https://arxiv.org/abs/2311.12234)
+
+**Aims** The authors present a new sample of 158 galaxies at redshift z>7.5 selected from deep JWST/NIRCam imaging of five widely-separated sightline in the CANUCS survey. 
+
+**Methods** The CANUCS survey provide the data that two-thirds of the pointing and 80% of the galaxies are covered by 12 to 14 NIRCam filters, including seven to nine medium filter. With multi-band data including medium band data, they could measure the phot-z accurately. A sample of 28 galaxies at z>7.5 with spectroscopic redshifts shows a low systematic offset and scatter in the difference between photometric and spectroscopic redshifts.
+
+**Results** The normalization of derived UVLF are slightly higher than that of derived based on the HST observations. They observe a steeper decline in the galaxy space density from z8-12 than found by most JWST Cycle 1 studies. They only find eight galaxies at z>10 and none at z>12.5, with no z>10 galaxies brighter than F277W AB=28. They attribute the lack of bright z>10 galaxies in CANUCS compared to GLASS and CEERS to intrinsic variance in the galaxy density along different sightlines.
+
+**Conclusions** The evolution in the CANUCS luminosity function between z=8 and 12 is comparable to that predicted by simulations that assume a standard star formation efficiency, without invoking any special adjustments.
+
+[[2311.12691] MIDIS: The Relation between Strong (Hb+[OIII]) Emission, Star Formation and Burstiness Around the Epoch of Reionization (arXiv.org)](https://arxiv.org/abs/2311.12691)
+
+**Aims** The primary objective is to explore the properties of galaxies that exhibit strong (Hβ+[OIII]) emission lines during and after the Epoch of Reionization.
+
+**Methods** The team utilizes ultra-deep imaging from the JWST/NIRCam in the Parallel Field of the MIRI Deep Infrared Survey (MIDIS) within the Hubble eXtreme Deep Field (P2-XDF). They select galaxies showing significant flux enhancement in the F356W band, indicative of strong (Hβ+[OIII]) emission. The sample is augmented with data from other similar emitters found in scientific literature.
+
+**Results**:
+
+- Anti-correlations are found between the equivalent width of (Hβ+[OIII]) and both the stellar mass and age of the galaxies. A positive correlation exists between the equivalent width and the specific star formation rate (sSFR)
+- On the star formation rate (SFR) versus stellar mass (M*) plane, these emitters are found in both the star-formation main sequence and starburst regions. This trend becomes less distinct at lower stellar masses. 
+
+**Conclusions**
+
+- The study reveals that both strong (Hβ+[OIII]) emitters and other types of galaxies at this epoch share many properties, including often having high sSFR.
+- This similarity between emitters and non-emitters is important for understanding the broader context of star formation activity around the Epoch of Reionization.
+- The non-monotonic relationship between emission line strength and SFR, especially at lower SFRs, suggests that factors like low metallicity might be significant in driving high emission line strengths in these galaxies.
