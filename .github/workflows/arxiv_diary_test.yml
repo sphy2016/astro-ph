@@ -1,0 +1,69 @@
+name: arXiv diary test
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 8:17 PM America/Chicago during daylight saving time.
+    # GitHub schedules are UTC.
+    - cron: "17 1 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  arxiv-diary-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch and prepare arXiv material
+        run: |
+          set -euo pipefail
+          mkdir -p ai/work
+          python ai/arxiv_notes.py fetch 2>&1 | tee ai/work/fetch.log
+          python ai/arxiv_notes.py prepare 2>&1 | tee ai/work/prepare.log
+
+      - name: Check whether Codex should run
+        id: status
+        run: |
+          set -euo pipefail
+          mkdir -p ai/work
+          python ai/arxiv_notes.py status 2>&1 | tee ai/work/status.log
+          if grep -q '^should_run_codex_analysis: yes$' ai/work/status.log; then
+            echo "should_run_codex=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run_codex=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run Codex draft step
+        if: steps.status.outputs.should_run_codex == 'true'
+        uses: openai/codex-action@v1
+        with:
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          prompt-file: .github/codex/prompts/arxiv_daily_draft.md
+          output-file: ai/work/codex-output.md
+          sandbox: workspace-write
+
+      - name: Upload workflow artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-diary-test
+          if-no-files-found: ignore
+          path: |
+            ai/work/draft_entry.md
+            ai/work/latest_manifest.json
+            ai/work/latest_source_pack.md
+            ai/work/fetch.log
+            ai/work/prepare.log
+            ai/work/status.log
+            ai/work/codex-output.md
